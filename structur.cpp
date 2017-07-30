@@ -22,7 +22,7 @@ int main(){
 
 	cout << "Expand your guest list with " << guest.name << " and " << pal.name << "!" << endl;
 
-	cout << "You can have both fir $" << guest.price+pal.price << endl;
+	cout << "You can have both for $" << guest.price+pal.price << endl;
 
 	return 0;
 }
