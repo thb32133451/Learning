@@ -25,7 +25,7 @@ int main(){
 	for(int k=0; k<=6; k++)
 	{
 		if (i[k] + j[k] == max_ungry)
-			cout << "The day that most hungry is" << k+1 << endl;
+			cout << "The day that most ungry is" << k+1 << endl;
 	}
 
 	return 0;
