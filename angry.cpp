@@ -22,10 +22,10 @@ int main(){
 		return 1;
 	}
 
-	for(int k=0; k<=6; k++)
+	for(n=0; n<=6; n++)
 	{
-		if (i[k] + j[k] == max_ungry)
-			cout << "The day that most ungry is" << k+1 << endl;
+		if (i[n] + j[n] == max_ungry)
+			cout << "The day that most ungry is" << n+1 << endl;
 	}
 
 	return 0;
