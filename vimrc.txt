@@ -1,0 +1,20 @@
+syntax enable
+set number
+set ruler
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+set autoindent
+set cindent
+set smartindent
+set textwidth=80
+set expandtab
+set ai!
+set cindent shiftwidth=4
+set hlsearch
+set ignorecase
+set showmatch
+set matchtime=2
+set nobackup
+set helplang=cn
+set backspace=indent,eol,start
