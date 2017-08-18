@@ -21,7 +21,7 @@ int main(){
     listen(server_sockfd,5);   //创建套接字队列
 
     while(1){
-        int ch;
+        double ch,result;
         printf("服务器等待消息。\n");
 
         client_len=sizeof(client_address);
@@ -29,8 +29,8 @@ int main(){
                 &client_address,(socklen_t *__restrict) &client_len);
               //接收连接
         read(client_sockfd,&ch,1);
-        ch++;
-        write(client_sockfd,&ch,1);
+        result*=ch;
+        write(client_sockfd,&result,1);
         close(client_sockfd);
     }
 }
