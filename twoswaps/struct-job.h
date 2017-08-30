@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _SWAP
+#define _SWAP
 
 struct job {
 	char name[40];
@@ -11,3 +12,4 @@ template <typename T> void Swap(T &a, T &b);
 template <> void Swap<job>(job &j1, job &j2);
 
 void show(job &j);
+#endif
